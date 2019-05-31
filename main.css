@@ -1,0 +1,93 @@
+* {
+font-family: "Lato", sans-serif;
+}
+
+body {
+    background: #F8FAFC;
+}
+
+.form-section {
+   box-shadow: 0 4px 4px 0 rgba(135,149,161,0.50);
+   border-radius: 3px;
+   width: 380px;
+   height: 400px;
+   margin: 3rem auto 0;
+   margin-bottom: 3rem;
+   max-width: 600px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-left: 33px;
+}
+
+
+.form-field label {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    color: #22292F;
+}
+
+.form-field input {
+    border: 0;
+    background: #DAE1E7;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    width: 300px;
+}
+
+.button {
+    margin-top: .5rem;
+    margin-left: 17rem;
+    padding: .5rem 1.2rem;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    font-size: 18px;
+    background: #3182CE;
+}
+
+.tracker-section {
+    margin: 5rem auto 0;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .progress-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .progress-tracker span {
+    padding: 10px 15px;
+    background: #8795a1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .progress-tracker h2 {
+    text-transform: uppercase;
+    color: #8795a1;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .active-tracker h2 {
+    color: #3182ce;
+  }
+  
+  .active-tracker span {
+    background: #3182ce;
+  }
